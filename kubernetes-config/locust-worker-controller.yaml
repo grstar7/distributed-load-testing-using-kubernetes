@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: locust-worker
-          image: gcr.io/[PROJECT_ID]/locust-tasks:latest
+          image: gcr.io/[PROJECT_ID]/[MYID]-locust-tasks:latest
           env:
             - name: LOCUST_MODE
               value: worker
